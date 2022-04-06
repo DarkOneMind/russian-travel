@@ -1,0 +1,35 @@
+.lead__image {
+  width: 984px;
+  height: 615px;
+  background: url(../../../images/lead-polka.jpg);
+  background-size: 100%;
+  margin-top: 64px;
+  padding: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__image {
+    width: 928px;
+    height: 580px;
+    margin-top: 56px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__image {
+    width: 768px;
+    height: 480px;
+    margin-top: 56px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .lead__image {
+    width: 320px;
+    height: 200px;
+    margin-top: 40px;
+  }
+}
