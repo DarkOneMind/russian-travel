@@ -1,5 +1,4 @@
 .place__url-heading {
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -11,13 +10,13 @@
   grid-area: url;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .place__url-heading {
     line-height: 12px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
   .place__url-heading {
     padding-left: 16px;
   }

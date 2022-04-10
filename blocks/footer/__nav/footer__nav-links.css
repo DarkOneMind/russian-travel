@@ -4,11 +4,11 @@
   list-style-type: none;
   display: flex;
   flex-direction: row;
+  align-items: flex-start;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   .footer__nav-links {
     flex-direction: column;
-    align-items: flex-start;
   }
 }
