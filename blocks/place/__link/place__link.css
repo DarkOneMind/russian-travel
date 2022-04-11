@@ -8,6 +8,7 @@
   margin: 0;
   padding: 0;
   grid-area: link;
+  opacity: 0.3s;
 }
 
 .place__link:hover {
